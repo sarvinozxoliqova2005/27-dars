@@ -13,12 +13,12 @@ const Header = () => {
           DOLCE & GABBANA
         </Link>
         <nav className="hidden lg:flex space-x-8 text-[10px] md:text-xs font-medium uppercase tracking-widest">
-          <a href="#" className="hover:text-gray-500 transition">
+          <Link href="/filter" className="hover:text-gray-500 transition">
             New & Featured
-          </a>
-          <a href="#" className="hover:text-gray-500 transition">
+          </Link>
+          <Link href="/men" className="hover:text-gray-500 transition">
             Men
-          </a>
+          </Link>
           <a href="#" className="hover:text-gray-500 transition">
             Women
           </a>

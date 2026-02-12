@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <>
       <section className="bg-[#f3f3f3] overflow-hidden">
-        <div className="container max-w-[1200px] mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-10 pt-10 md:pt-[80px]">
+        <div className="container max-w-[1200px] mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-10 py-10 md:pt-[80px]">
           <div className="w-full md:w-1/1 flex justify-center">
             <div className="relative  w-full h-[700p] max-[600px]:h-[400px]">
              <Image src={hero} alt="jnef" fill className="object-cover"/>
